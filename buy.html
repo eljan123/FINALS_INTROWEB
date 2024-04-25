@@ -1,0 +1,233 @@
+<!--
+    Name: Pamintuan, Eljan Joel Y.
+          WD - 201
+          ShopOhBeauty
+          October 28, 2023 - November 17, 2023
+
+
+    Reference: https://developer.mozilla.org/en-US/
+               https://www.w3schools.com/
+               https://www.geeksforgeeks.org/
+               https://youtu.be/W6NZfCO5SIk?si=ADEbYYTfanLAiQ-B
+               https://stackoverflow.com/
+               https://www.instagram.com/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopOhBeauty - Buy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Update Fontawesome Icons-->
+    <script src="https://kit.fontawesome.com/8bc118086b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--ShopOhBeauty logo-->
+    <link rel="shortcut icon" href="images/ShopOhBeauty.jpg" />
+	<link rel="icon" type="images/png" sizes="32x32" href="images/ShopOhBeauty.jpg" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/ShopOhBeauty.jpg" />
+	<link rel="icon" sizes="192x192" href="images/ShopOhBeauty.jpg" />
+</head>
+<body>
+    <!-- The icons I used in this website is from "https://fontawesome.com/v4/icons/" -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <!-- Header -->
+    <button onclick="topFunction()" id="scrollButton" title="Go to top"><i class="fa-solid fa-circle-up fa-2xl"></i></button>
+    <section class="head">
+        <nav>
+            <div class="shopOhBeauty-logo">
+                <img src="images/ShopOhBeauty.jpg">
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-minus" style="color: #ffffff;" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+                    <li>
+                        <a href="#contact-open">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>ShopOhBeauty</h1>
+            <p>Welcome to ShopOhBeauty, where beauty and elegance unite!<br>Uncover your unique beauty with us. Your radiant journey begins <i>here</i>.</p>
+            <a href="https://www.facebook.com/lhisa.pamintuan" class="visit-button">Visit Us on Facebook</a>
+        </div>
+        <!--Transition Script-->
+        <script src="webTransition.js"></script>
+    </section> 
+
+
+    <!-- Video -->
+    <div class="sale">
+        <h3>ShopOhBeauty 11.11 Mega Sale!</h3>
+    </div>
+    <div class="video-sale">
+        <video controls>
+            <source src="video/11.11 Sale.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+    <!-- Products with add to cart -->
+    <section class="buy-section">
+        <h1>Our Products</h1>
+        <div class="buy-row"> 
+            <div class="buy-column">
+                <img src="./images/hikari_coffee.jpg" alt="Picture 1">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="buy-column">
+                <img src="./images/milk_drinks.jpg" alt="Picture 2">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>                
+            </div>
+    
+            <div class="buy-column">
+                <img src="./images/hikariStrawberry_coffee.jpg" alt="Picture 3">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>                     
+            </div>
+    
+            <div class="buy-column">
+                <img src="images/beauty_bean.jpg" alt="Picture 4">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>  
+            </div>
+    
+            <div class="buy-column">
+                <img src="images/beautyMilk_japaneseCollagen.jpg" alt="Picture 5">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>          
+            </div>
+
+            <div class="buy-column">
+                <img src="images/beautyMilk_lychee.jpg" alt="Picture 6">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>          
+            </div>
+
+            <div class="buy-column">
+                <img src="images/nutricolonDetox.jpg" alt="Picture 7">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>          
+            </div>
+
+            <div class="buy-column">
+                <img src="images/mochaCoffee.jpg" alt="Picture 8">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>          
+            </div>
+
+            <div class="buy-column">
+                <img src="images/mixedBerriesIcedTea.jpg" alt="Picture 9">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>          
+            </div>
+
+            <div class="buy-column">
+                <img src="images/skin_care.jpg" alt="Picture 10">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>          
+            </div>
+
+            <div class="buy-column">
+                <img src="images/beauty_pills.jpg" alt="Picture 11">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>          
+            </div>
+
+            <div class="buy-column">
+                <img src="images/kojic_lotion.jpg" alt="Picture 12">
+                <div class="overlay">
+                    <div class="hover-content">
+                        <h3>Price: To be Announce</h3>
+                        <button class="add-to-cart-button"><i class="fa-solid fa-cart-shopping fa-lg"></i>Add to Cart</button>
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Other Scripts -->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Transition Script-->
+    <script src="webTransition.js"></script>
+
+    
+    <!-- Contact Us -->
+    <section class="contact" id="contact-open">
+        <h1>Experience Beauty and Elegance<br>Anytime Anywhere</h1>
+        <a href="contact.html" class="visit-button">Contact Us</a>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="footer" id="footer-open">
+        <div class="copyright">
+            <p>&copy; Copyright 2023. All rights reserved. Created by Pamintuan, Eljan Joel Y.<br><a href="mailto: eljan.y.pamintuan@icloud.com">ShopOhBeauty</a></p>
+        </div>
+    </section>
+</body>
+</html>
